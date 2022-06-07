@@ -13,10 +13,127 @@ header{
     border: 10px double black;
     grid-area: header;
     
+    justify-content: center;
+    }
+    .argentina{
+        width: 120px;
+        height: 100px;
+    }
+    .logo{
+        width: 140;
+        height: 90px;
+    }
+    .video{
+        width: 160px;  
+    height: 100px;  }
+
+    @media(min-width:500px){
+        body{
+            margin: 0;
+            grid-template-columns: 1fr 1fr;
+            grid-area: 
+            "h1 h1"
+            "header header"
+            "h2 h2"
+            "figure figure"
+            "figcaption figcaption"
+            "footer footer";}
+            
+        
+        header{
+            text-align: center;
+        }
+
+        .argentina{
+            width: 250px;
+            height: 200px;
+        }
+
+        .logo{
+            width: 180px;
+            height: 100px;
+        }
+
+        .video{
+            width: 200px;
+            height: 120px;
+        }
+    }
     
+       
     
+
+    @media(min-width:768px){
+        body{
+            margin: 0;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-area: 
+            "header header header"
+            "h1 figure h2"
+            "figcaption figcaption figcaption"
+            "footer footer footer";
+        }
     
-}
+        header{
+            text-align: center;
+        }
+    
+        .argentina{
+            width: 450px;
+            height: 350px;
+        }
+
+        .logo{
+            width: 280px;
+            height: 200px;
+        }
+
+        .video{
+            width: 560px;
+            height: 390px;
+        }
+    }
+        
+    
+
+    @media(min-width:1024px){
+        body{
+            color: blueviolet;
+            margin: 0px;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-area: 
+            "h1 h1 h1"
+            "header header header"
+            "figcaption figure h2"
+            "footer footer footer";
+        }
+
+       header{
+           text-align: center;
+           
+       }
+
+       .argentina{
+           width: 600px;
+           height: 500px;
+       }
+
+       .logo{
+           width: 350px;
+           height: 300px;
+       }
+
+       .video{
+           width: 620px;
+           height: 420px;
+       }
+        
+       
+            
+        
+    }
+        
+    
 
 div{
     font-size: 30px;
@@ -56,6 +173,38 @@ main{
     
 }
 
+.border{
+    display: flex;
+}
+
+.imagen{
+    display: flex;
+}
+
+.video{
+    display: flex;
+}
+
+.parte1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.parte2{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    
+}
+
+.paginas{
+    display: flex;
+}
+
+
 label{
     font-size: 30px;
 }
@@ -90,6 +239,12 @@ figcaption{
     grid-area: figcaption;
 }
 
+footer{
+    background-color: lightcoral;
+    color: aqua;
+    text-align: center;
+}
+
 form{
     background-color: lightgray;
 }
@@ -98,30 +253,21 @@ form{
     transform: scale(1.2);
     transition: all 1s;
     background-color: rgb(31, 31, 233);
+   
+}
+
+.genero{
+    color: red;
 }
 
 
-footer{
-    background-color: lightcoral;
-    color: aqua;
-    border: solid black;
-    grid-area: footer;
-}
 
 
   
 
 
 
-#grilla {
-    display: grid;
-    grid-template-areas: 
-    "h1 header header"
-    "h1 figure h2"
-    "h1 figcaption h2"
-    "h1 footer footer"
-    
-}
+
 
 
 
