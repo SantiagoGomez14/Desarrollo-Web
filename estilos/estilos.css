@@ -243,6 +243,7 @@ footer{
     background-color: lightcoral;
     color: aqua;
     text-align: center;
+    
 }
 
 form{
@@ -252,7 +253,8 @@ form{
 .parte1 :hover{
     transform: scale(1.2);
     transition: all 1s;
-    background-color: rgb(31, 31, 233);
+    background-color: blue;
+    
    
 }
 
@@ -260,8 +262,26 @@ form{
     color: red;
 }
 
+.face{
+    display: flex;
+    margin-left: 900px;
+    
+}
 
+.ing{
+    display: flex;
+    margin-left: 900px;
+    
+    
+}
 
+.redesSociales :hover{
+     transform: scale(2);
+    transition: all 1s;
+    
+   
+    
+}
 
   
 
