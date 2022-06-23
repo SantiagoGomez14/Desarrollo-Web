@@ -41,6 +41,31 @@ header ul li a {
   color: darkgreen;
 }
 
+.red_social {
+  background-color: blue;
+  width: 300px;
+  height: 40px;
+}
+
+.contact {
+  border: 2px dashed blue;
+}
+
+.list-group-1 {
+  background-color: aquamarine;
+  color: black;
+}
+
+.list-group-2 {
+  background-color: aquamarine;
+  color: black;
+}
+
+.list-group-3 {
+  background-color: aquamarine;
+  color: black;
+}
+
 body {
   background-image: url("../img/green-plastic-grass-textured-backdrop.jpg");
 }
@@ -124,6 +149,36 @@ div {
   text-align: center;
 }
 
+.barcelona {
+  width: 120px;
+  height: 100px;
+  text-align: center;
+}
+
+.real {
+  width: 120px;
+  height: 100px;
+  text-align: center;
+}
+
+.rayo {
+  width: 120px;
+  height: 100px;
+  text-align: center;
+}
+
+.bilbao {
+  width: 120px;
+  height: 100px;
+  text-align: center;
+}
+
+.atletico {
+  width: 120px;
+  height: 100px;
+  text-align: center;
+}
+
 h2 {
   background-color: gray;
   text-align: center;
@@ -192,6 +247,26 @@ h2 {
     width: 200px;
     height: 100px;
   }
+  .barcelona {
+    width: 200px;
+    height: 100px;
+  }
+  .real {
+    width: 200px;
+    height: 100px;
+  }
+  .rayo {
+    width: 200px;
+    height: 100px;
+  }
+  .bilbao {
+    width: 200px;
+    height: 100px;
+  }
+  .atletico {
+    width: 200px;
+    height: 100px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -253,6 +328,26 @@ h2 {
     height: 280px;
   }
   .west {
+    width: 350px;
+    height: 280px;
+  }
+  .barcelona {
+    width: 350px;
+    height: 280px;
+  }
+  .real {
+    width: 350px;
+    height: 280px;
+  }
+  .rayo {
+    width: 350px;
+    height: 280px;
+  }
+  .bilbao {
+    width: 350px;
+    height: 280px;
+  }
+  .atletico {
     width: 350px;
     height: 280px;
   }
@@ -318,6 +413,26 @@ h2 {
     height: 350px;
   }
   .arsenal {
+    width: 400px;
+    height: 350px;
+  }
+  .barcelona {
+    width: 400px;
+    height: 350px;
+  }
+  .real {
+    width: 400px;
+    height: 350px;
+  }
+  .rayo {
+    width: 400px;
+    height: 350px;
+  }
+  .bilbao {
+    width: 400px;
+    height: 350px;
+  }
+  .atletico {
     width: 400px;
     height: 350px;
   }
@@ -435,6 +550,46 @@ main {
   background-color: brown;
 }
 
+.barcelona:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: blue;
+}
+
+.real:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: white;
+}
+
+.rayo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: #ff6262;
+}
+
+.bilbao:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: red;
+}
+
+.atletico:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: red;
+}
+
 .camisetas {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,7 +640,6 @@ figcaption {
 }
 
 footer {
-  background-color: lightcoral;
   color: aqua;
   text-align: center;
 }

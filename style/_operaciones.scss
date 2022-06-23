@@ -1,0 +1,32 @@
+$ancho:600px;
+$blue:blue;
+$green:green;
+
+.red_social{
+    background-color: $blue;
+    width: $ancho/2;
+    height: 40px;
+}
+
+$objeto:celular;
+
+$mostrar:true;
+.contact{
+    @if $mostrar {
+        border: 2px dashed blue;
+        
+    }
+}
+
+$i:1;
+
+@for $i from 1 through 3{
+    .list-group-#{$i}{
+        background-color: aquamarine;
+        color: black;
+        
+    }
+        
+    
+    
+}
