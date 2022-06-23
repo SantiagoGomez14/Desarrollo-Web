@@ -83,6 +83,11 @@ div{
         text-align: center;
      }
      
+     h2 {
+      background-color: gray;
+      text-align: center;
+      grid-area: h2;
+    }
 
     @media (min-width: 500px) {
       body {
@@ -157,7 +162,7 @@ div{
           height: 100px;
         }
         
-
+        
 
 }
     
@@ -234,7 +239,7 @@ div{
         height: 280px;
       }
      
-      
+     
       
      
     }
@@ -309,7 +314,7 @@ div{
         height: 350px;
 }
 
-
+    }
         
     
 
@@ -457,4 +462,4 @@ div{
       .fa-twitter{
         color: aqua;
       }
-    }
+    
