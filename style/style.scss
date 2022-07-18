@@ -10,6 +10,11 @@ body{
 div{
     font-size: 30px;}
     
+    a{
+      color: black;
+      text-decoration: double;
+      
+    }
     
     .argentina{
         width: 120px;
@@ -108,11 +113,14 @@ div{
         text-align: center;
      }
      
+     
      h2 {
       background-color: gray;
       text-align: center;
       grid-area: h2;
     }
+
+   
 
     @media (min-width: 500px) {
       body {
@@ -206,6 +214,7 @@ div{
           width: 200px;
           height: 100px;
         }
+        
         
         
 
@@ -303,6 +312,7 @@ div{
         width: 350px;
         height: 280px;
       }
+      
      
       
     }
@@ -397,6 +407,7 @@ div{
   width: 400px;
   height: 350px;
   }
+  
 
     }
         
@@ -422,12 +433,17 @@ div{
       background-color: lightgray;
       margin: 6%;
       border: inset black;
+      text-align: center;
     }
     
     .border {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      text-decoration: none;
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                     font-size: 40px;
     }
     
     .imagen {
@@ -596,6 +612,7 @@ div{
       color: darkgreen;
     }
     
+    
     .face {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -603,6 +620,33 @@ div{
       margin-left: 900px;
     }
     
+    .promo{
+      background-color: green;
+      text-decoration: none;
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 35px;
+    }
+    .gloria{
+      background-color: green;
+      text-decoration: none;
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 35px;
+    }
+
+    .pro{
+      background-color: green;
+      text-decoration: none;
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 50px;
+                    
+    }
+
+    .ini{
+      background-color: green;
+    }
     .ing {
       display: -webkit-box;
       display: -ms-flexbox;

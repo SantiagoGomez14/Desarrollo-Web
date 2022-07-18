@@ -74,6 +74,12 @@ div {
   font-size: 30px;
 }
 
+a {
+  color: black;
+  -webkit-text-decoration: double;
+          text-decoration: double;
+}
+
 .argentina {
   width: 120px;
   height: 100px;
@@ -450,12 +456,17 @@ main {
   background-color: lightgray;
   margin: 6%;
   border: inset black;
+  text-align: center;
 }
 
 .border {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
 }
 
 .imagen {
@@ -658,6 +669,34 @@ form {
   display: -ms-flexbox;
   display: flex;
   margin-left: 900px;
+}
+
+.promo {
+  background-color: green;
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+.gloria {
+  background-color: green;
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+.pro {
+  background-color: green;
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.ini {
+  background-color: green;
 }
 
 .ing {
